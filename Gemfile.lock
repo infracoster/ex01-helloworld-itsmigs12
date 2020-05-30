@@ -1,4 +1,5 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.1.
+    activemodel (6.1.0)
+      activesuppor
