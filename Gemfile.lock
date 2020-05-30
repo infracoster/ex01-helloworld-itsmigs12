@@ -3,4 +3,5 @@ GEM
   specs:
     activemodel (6.1.0)
       activesupport (= 6.1.0)
-    activerecord (6
+    activerecord (6.1.0)
+      activemodel
