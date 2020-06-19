@@ -4,4 +4,5 @@ GEM
     activemodel (6.1.0)
       activesupport (= 6.1.0)
     activerecord (6.1.0)
-      activemodel
+      activemodel (= 6.1.0)
+      act
