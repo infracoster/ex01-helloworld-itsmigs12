@@ -12,4 +12,5 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
-    attribute_normalizer (1.
+    attribute_normalizer (1.2.0)
+    byebug (11.1.3)
