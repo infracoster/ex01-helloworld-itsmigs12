@@ -11,4 +11,5 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-      zeitwe
+      zeitwerk (~> 2.3)
+    attri
