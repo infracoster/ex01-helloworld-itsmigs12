@@ -12,4 +12,4 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
-    attri
+    attribute_normalizer (1.
