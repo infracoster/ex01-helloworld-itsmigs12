@@ -7,3 +7,4 @@ GEM
       activemodel (= 6.1.0)
       activesupport (= 6.1.0)
     activesupport (6.1.0)
+      concurrent-ruby (~> 1.0
