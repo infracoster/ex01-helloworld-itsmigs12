@@ -14,3 +14,4 @@ GEM
       zeitwerk (~> 2.3)
     attribute_normalizer (1.2.0)
     byebug (11.1.3)
+    coin_tracking
