@@ -17,4 +17,5 @@ GEM
     coin_tracking (1.0.1)
       httparty
     concurrent-ruby (1.1.7)
-    httparty (0
+    httparty (0.18.1)
+      mime-types (
