@@ -18,4 +18,5 @@ GEM
       httparty
     concurrent-ruby (1.1.7)
     httparty (0.18.1)
-      mime-types (
+      mime-types (~> 3.0)
+      multi
