@@ -19,4 +19,4 @@ GEM
     concurrent-ruby (1.1.7)
     httparty (0.18.1)
       mime-types (~> 3.0)
-      multi
+      multi_xml (>= 0.5.2)
