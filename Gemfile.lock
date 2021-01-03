@@ -27,4 +27,5 @@ GEM
     mime-types-data (3.2020.1104)
     minitest (5.14.2)
     multi_xml (0.6.0)
-    rounding (1.0
+    rounding (1.0.1)
+    sqlite3 (1.4.2)
