@@ -29,3 +29,4 @@ GEM
     multi_xml (0.6.0)
     rounding (1.0.1)
     sqlite3 (1.4.2)
+    tzinfo (2.0.4)
