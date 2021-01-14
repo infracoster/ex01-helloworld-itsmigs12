@@ -30,4 +30,5 @@ GEM
     rounding (1.0.1)
     sqlite3 (1.4.2)
     tzinfo (2.0.4)
-      concurrent-ruby 
+      concurrent-ruby (~> 1.0)
+    zeitwerk 
