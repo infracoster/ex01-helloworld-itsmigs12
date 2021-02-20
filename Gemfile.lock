@@ -38,4 +38,6 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  attribute_normaliz
+  attribute_normalizer
+  byebug
+  coin_
