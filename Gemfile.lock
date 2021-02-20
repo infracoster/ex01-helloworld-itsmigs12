@@ -37,4 +37,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  act
+  activerecord
+  attr
