@@ -40,4 +40,5 @@ DEPENDENCIES
   activerecord
   attribute_normalizer
   byebug
-  coin_
+  coin_tracking (= 1.0.1)
+  
