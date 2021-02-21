@@ -41,4 +41,5 @@ DEPENDENCIES
   attribute_normalizer
   byebug
   coin_tracking (= 1.0.1)
-  
+  rounding
+  sqlite3
