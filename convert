@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-ROOT_PATH = File.dirname(File.expand_path(__FILE_
+ROOT_PATH = File.dirname(File.expand_path(__FILE__))
+require 'b
