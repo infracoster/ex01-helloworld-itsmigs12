@@ -12,3 +12,22 @@ Config = Struct.new(:cointracking_api_key, :cointracking_secret_key, :output_pat
     self[:combine_trades] == false ? false : true
   end
   alias combine_trades? combine_trades
+
+  def load(config_file = nil)
+    if config_file.blank?
+      path = ROOT_PATH
+      config_file = File.join(path, 'config.yml')
+    end
+
+    h = YAML.load_file(File.expand_path(config_file))
+
+    self.members.each do |m|
+      self.send("#{m}=", nil)
+    end
+
+    h.each_pair do |k, v|
+      self.send("#{k}=", v)
+    end
+    self
+  end
+end
