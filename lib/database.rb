@@ -1,2 +1,2 @@
 require 'active_record'
-require
+require 'attribute_normalizer
