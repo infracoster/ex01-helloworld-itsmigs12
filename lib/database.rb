@@ -3,4 +3,5 @@ require 'attribute_normalizer'
 require 'rounding'
 require 'byebug'
 
-ActiveRecord::Schema.verbose =
+ActiveRecord::Schema.verbose = false
+ActiveRecord::Bas
