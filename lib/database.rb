@@ -4,4 +4,4 @@ require 'rounding'
 require 'byebug'
 
 ActiveRecord::Schema.verbose = false
-ActiveRecord::Bas
+ActiveRecord::Base.establish_conn
