@@ -4,4 +4,4 @@ require 'rounding'
 require 'byebug'
 
 ActiveRecord::Schema.verbose = false
-ActiveRecord::Base.establish_connection(adapter: 'sq
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: ':memor
