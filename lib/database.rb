@@ -8,4 +8,4 @@ ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: ':memory:'
 
 ActiveRecord::Base.send :include, AttributeNormalizer
 
-ActiveReco
+ActiveRecord::Schema.define(v
