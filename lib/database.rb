@@ -6,4 +6,4 @@ require 'byebug'
 ActiveRecord::Schema.verbose = false
 ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: ':memory:')
 
-ActiveRecord::B
+ActiveRecord::Base.send :include, AttributeN
