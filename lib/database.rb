@@ -11,4 +11,4 @@ ActiveRecord::Base.send :include, AttributeNormalizer
 ActiveRecord::Schema.define(version: 1) do
   create_table "trades" do |t|
     t.decimal  "buy_amount"
-    
+    t.string   "buy_curre
