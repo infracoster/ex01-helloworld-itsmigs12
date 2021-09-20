@@ -13,3 +13,4 @@ ActiveRecord::Schema.define(version: 1) do
     t.decimal  "buy_amount"
     t.string   "buy_currency"
     t.decimal  "sell_amount"
+    t.string   "sell_c
