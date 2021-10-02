@@ -15,4 +15,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.decimal  "sell_amount"
     t.string   "sell_currency"
     t.decimal  "fee_amount"
-    t.string   
+    t.string   "fee_currency"
+   
