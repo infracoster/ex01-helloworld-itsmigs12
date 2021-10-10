@@ -17,4 +17,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.decimal  "fee_amount"
     t.string   "fee_currency"
     t.string   "txn_type"
+    t.string   "exchange"
     t.string
