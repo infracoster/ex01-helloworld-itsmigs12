@@ -18,4 +18,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   "fee_currency"
     t.string   "txn_type"
     t.string   "exchange"
-    t.string
+    t.string   "group"
+    t.
