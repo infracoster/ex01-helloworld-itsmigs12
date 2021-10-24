@@ -19,4 +19,4 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   "txn_type"
     t.string   "exchange"
     t.string   "group"
-    t.
+    t.string   "comment"
