@@ -20,4 +20,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   "exchange"
     t.string   "group"
     t.string   "comment"
-    t.string   "imported_from
+    t.string   "imported_from"
+    t.datetime "tim
