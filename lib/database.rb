@@ -22,4 +22,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   "comment"
     t.string   "imported_from"
     t.datetime "time"
-    t.datetime "impo
+    t.datetime "imported_time"
+    t.string
