@@ -28,4 +28,4 @@ ActiveRecord::Schema.define(version: 1) do
   end
 end
 
-class Tr
+class Trade < ActiveRecord:
