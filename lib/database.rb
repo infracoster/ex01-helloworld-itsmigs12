@@ -24,4 +24,4 @@ ActiveRecord::Schema.define(version: 1) do
     t.datetime "time"
     t.datetime "imported_time"
     t.string   "trade_id"
-    t.s
+    t.string   "order_hash"
