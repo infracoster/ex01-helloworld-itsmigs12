@@ -25,3 +25,7 @@ ActiveRecord::Schema.define(version: 1) do
     t.datetime "imported_time"
     t.string   "trade_id"
     t.string   "order_hash"
+  end
+end
+
+class Tr
