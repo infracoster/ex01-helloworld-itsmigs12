@@ -23,4 +23,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   "imported_from"
     t.datetime "time"
     t.datetime "imported_time"
-    t.string
+    t.string   "trade_id"
+    t.s
