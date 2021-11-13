@@ -28,4 +28,5 @@ ActiveRecord::Schema.define(version: 1) do
   end
 end
 
-class Trade < ActiveRecord:
+class Trade < ActiveRecord::Base
+  before_save :set_orde
