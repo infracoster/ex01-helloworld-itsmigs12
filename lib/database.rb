@@ -29,4 +29,6 @@ ActiveRecord::Schema.define(version: 1) do
 end
 
 class Trade < ActiveRecord::Base
-  before_save :set_orde
+  before_save :set_order_hash
+
+  no
