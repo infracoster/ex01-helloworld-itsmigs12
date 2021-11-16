@@ -31,4 +31,4 @@ end
 class Trade < ActiveRecord::Base
   before_save :set_order_hash
 
-  no
+  normalize_attribute :txn
