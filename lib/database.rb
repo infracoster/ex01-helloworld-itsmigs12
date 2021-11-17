@@ -32,4 +32,4 @@ class Trade < ActiveRecord::Base
   before_save :set_order_hash
 
   normalize_attribute :txn_type do |v|
-  
+    v.strip.downc
