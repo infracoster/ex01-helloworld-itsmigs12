@@ -35,4 +35,4 @@ class Trade < ActiveRecord::Base
     v.strip.downcase
   end
 
-  n
+  normalize_attribute :buy_cu
