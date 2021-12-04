@@ -39,4 +39,4 @@ class Trade < ActiveRecord::Base
     v.strip.upcase
   end
 
-  def self
+  def self.from_cointracking(id,
