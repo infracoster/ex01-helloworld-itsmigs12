@@ -36,4 +36,7 @@ class Trade < ActiveRecord::Base
   end
 
   normalize_attribute :buy_currency, :sell_currency, :fee_currency do |v|
-    v.st
+    v.strip.upcase
+  end
+
+  def self
