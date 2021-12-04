@@ -40,4 +40,6 @@ class Trade < ActiveRecord::Base
   end
 
   def self.from_cointracking(id, values)
-    t = Trade
+    t = Trade.new
+    t.trade_id = id
+ 
