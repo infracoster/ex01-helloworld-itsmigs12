@@ -42,4 +42,4 @@ class Trade < ActiveRecord::Base
   def self.from_cointracking(id, values)
     t = Trade.new
     t.trade_id = id
- 
+    t.txn_type = values
