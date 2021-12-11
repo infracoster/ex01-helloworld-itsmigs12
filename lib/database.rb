@@ -45,4 +45,4 @@ class Trade < ActiveRecord::Base
     t.txn_type = values.delete('type')
 
     values.each_pair do |k, v|
-      nex
+      next unless t.respond_to?
