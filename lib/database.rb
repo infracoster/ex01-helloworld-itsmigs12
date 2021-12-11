@@ -44,4 +44,5 @@ class Trade < ActiveRecord::Base
     t.trade_id = id
     t.txn_type = values.delete('type')
 
-    values.each_pai
+    values.each_pair do |k, v|
+      nex
