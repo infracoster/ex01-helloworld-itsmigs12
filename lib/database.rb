@@ -49,4 +49,7 @@ class Trade < ActiveRecord::Base
       t[k] = if k =~ /time/
         DateTime.strptime(v, '%s')
       else
-      
+        v
+      end
+    end
+  
