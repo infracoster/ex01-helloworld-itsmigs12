@@ -47,4 +47,6 @@ class Trade < ActiveRecord::Base
     values.each_pair do |k, v|
       next unless t.respond_to?("#{k}=")
       t[k] = if k =~ /time/
-        DateTime.strptim
+        DateTime.strptime(v, '%s')
+      else
+      
