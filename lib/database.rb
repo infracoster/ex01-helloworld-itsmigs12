@@ -52,4 +52,7 @@ class Trade < ActiveRecord::Base
         v
       end
     end
-  
+    t
+  end
+
+  private
