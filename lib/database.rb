@@ -59,4 +59,4 @@ class Trade < ActiveRecord::Base
 
   def set_order_hash
     t = self.time.floor_to(1.minute)
-    self.order_hash 
+    self.order_hash = Digest::SHA256.hexdige
