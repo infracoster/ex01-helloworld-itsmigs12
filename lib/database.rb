@@ -56,3 +56,6 @@ class Trade < ActiveRecord::Base
   end
 
   private
+
+  def set_order_hash
+    t = 
