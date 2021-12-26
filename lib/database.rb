@@ -58,4 +58,4 @@ class Trade < ActiveRecord::Base
   private
 
   def set_order_hash
-    t = 
+    t = self.time.floor_to(1.min
