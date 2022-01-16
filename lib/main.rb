@@ -1,4 +1,4 @@
 require 'bundler/setup'
 require 'digest'
 
-require File.
+require File.join(ROOT_PATH, '/
