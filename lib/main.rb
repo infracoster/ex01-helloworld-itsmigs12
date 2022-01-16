@@ -1,2 +1,4 @@
 require 'bundler/setup'
-require '
+require 'digest'
+
+require File.
