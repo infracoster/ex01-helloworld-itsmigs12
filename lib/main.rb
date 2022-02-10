@@ -9,4 +9,4 @@ require File.join(ROOT_PATH, '/lib/database')
 
 include Utils
 
-TRADING_FIELDS  = %w(DATE 
+TRADING_FIELDS  = %w(DATE ACTION SOURCE SYMBOL VOLU
