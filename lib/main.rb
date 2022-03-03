@@ -14,4 +14,5 @@ INCOME_FIELDS   = %w(DATE ACTION SOURCE SYMBOL VOLUME TOTAL CURRENCY)
 SPENDING_FIELDS = %w(DATE ACTION SOURCE SYMBOL VOLUME)
 
 def convert_type(ct_type)
-  TYPE_MAPPING.each_key do 
+  TYPE_MAPPING.each_key do |regexp|
+    ret
