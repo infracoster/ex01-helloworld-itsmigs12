@@ -15,4 +15,4 @@ SPENDING_FIELDS = %w(DATE ACTION SOURCE SYMBOL VOLUME)
 
 def convert_type(ct_type)
   TYPE_MAPPING.each_key do |regexp|
-    ret
+    return TYPE_MAPPING[reg
