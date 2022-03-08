@@ -20,3 +20,5 @@ def convert_type(ct_type)
 
   nil
 end
+
+def retrieve_trades
