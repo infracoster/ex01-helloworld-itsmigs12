@@ -22,4 +22,5 @@ def convert_type(ct_type)
 end
 
 def retrieve_trades_data
-  puts "Retrieving trades from Coi
+  puts "Retrieving trades from CoinTracking..."
+  if $config.r
