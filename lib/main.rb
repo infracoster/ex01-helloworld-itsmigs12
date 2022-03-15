@@ -21,4 +21,5 @@ def convert_type(ct_type)
   nil
 end
 
-def retrieve_trades
+def retrieve_trades_data
+  puts "Retrievin
