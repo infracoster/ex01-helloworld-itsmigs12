@@ -22,4 +22,4 @@ def convert_type(ct_type)
 end
 
 def retrieve_trades_data
-  puts "Retrievin
+  puts "Retrieving trades from Coi
