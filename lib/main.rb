@@ -23,4 +23,4 @@ end
 
 def retrieve_trades_data
   puts "Retrieving trades from CoinTracking..."
-  if $config.r
+  if $config.read_from_cach
