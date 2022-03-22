@@ -23,4 +23,4 @@ end
 
 def retrieve_trades_data
   puts "Retrieving trades from CoinTracking..."
-  if $config.read_from_cache && File.exists?($co
+  if $config.read_from_cache && File.exists?($config.cache_dat
