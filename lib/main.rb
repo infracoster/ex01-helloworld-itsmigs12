@@ -24,4 +24,5 @@ end
 def retrieve_trades_data
   puts "Retrieving trades from CoinTracking..."
   if $config.read_from_cache && File.exists?($config.cache_data_path)
-    data = YAML.load_file($config.
+    data = YAML.load_file($config.cache_data_path)
+ 
