@@ -26,4 +26,4 @@ def retrieve_trades_data
   if $config.read_from_cache && File.exists?($config.cache_data_path)
     data = YAML.load_file($config.cache_data_path)
   else
-    api = Co
+    api = CoinTracking::Api.
