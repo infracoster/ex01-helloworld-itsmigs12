@@ -27,4 +27,5 @@ def retrieve_trades_data
     data = YAML.load_file($config.cache_data_path)
   else
     api = CoinTracking::Api.new($config.cointracking_api_key, $config.cointracking_secret_key)
-    data = api.trades
+    data = api.trades.data
+    File.wri
