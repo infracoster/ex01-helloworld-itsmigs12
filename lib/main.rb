@@ -28,4 +28,4 @@ def retrieve_trades_data
   else
     api = CoinTracking::Api.new($config.cointracking_api_key, $config.cointracking_secret_key)
     data = api.trades.data
-    File.write($config.cache_data_pat
+    File.write($config.cache_data_path, data.to_yaml) if $c
