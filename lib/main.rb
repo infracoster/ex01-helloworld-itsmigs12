@@ -31,4 +31,4 @@ def retrieve_trades_data
     File.write($config.cache_data_path, data.to_yaml) if $config.cache_data_path
   end
 
-  puts "Sav
+  puts "Saving trades to memory...
