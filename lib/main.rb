@@ -31,4 +31,5 @@ def retrieve_trades_data
     File.write($config.cache_data_path, data.to_yaml) if $config.cache_data_path
   end
 
-  puts "Saving trades to memory...
+  puts "Saving trades to memory..."
+  data.each_pair do |id
