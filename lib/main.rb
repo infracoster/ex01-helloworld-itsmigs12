@@ -32,4 +32,5 @@ def retrieve_trades_data
   end
 
   puts "Saving trades to memory..."
-  data.each_pair do |id
+  data.each_pair do |id, values|
+    next unle
