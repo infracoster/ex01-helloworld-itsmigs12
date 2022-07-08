@@ -33,4 +33,4 @@ def retrieve_trades_data
 
   puts "Saving trades to memory..."
   data.each_pair do |id, values|
-    next unle
+    next unless id.to_i.to_s == id.to
