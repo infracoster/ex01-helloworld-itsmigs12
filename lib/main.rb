@@ -36,4 +36,7 @@ def retrieve_trades_data
     next unless id.to_i.to_s == id.to_s
     t = Trade.from_cointracking(id, values)
     t.save!
-    
+    print '.'
+  end
+
+  prin
