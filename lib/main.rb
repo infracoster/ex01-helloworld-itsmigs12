@@ -39,4 +39,8 @@ def retrieve_trades_data
     print '.'
   end
 
-  prin
+  print "\n"
+end
+
+
+def or
