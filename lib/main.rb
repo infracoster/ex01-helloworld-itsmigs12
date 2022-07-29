@@ -44,4 +44,4 @@ end
 
 
 def order_fingerprint(ct_trade)
-  Digest::SHA
+  Digest::SHA256.hexdigest "#{value
