@@ -43,4 +43,4 @@ def retrieve_trades_data
 end
 
 
-def or
+def order_fingerprint(ct
