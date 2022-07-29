@@ -43,4 +43,5 @@ def retrieve_trades_data
 end
 
 
-def order_fingerprint(ct
+def order_fingerprint(ct_trade)
+  Digest::SHA
