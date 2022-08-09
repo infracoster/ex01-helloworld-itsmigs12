@@ -44,4 +44,4 @@ end
 
 
 def order_fingerprint(ct_trade)
-  Digest::SHA256.hexdigest "#{values['time']}-#{values['buy_currency']}-#{values['s
+  Digest::SHA256.hexdigest "#{values['time']}-#{values['buy_currency']}-#{values['sell_currency']}-#{valu
