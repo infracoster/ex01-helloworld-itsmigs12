@@ -47,4 +47,5 @@ def order_fingerprint(ct_trade)
   Digest::SHA256.hexdigest "#{values['time']}-#{values['buy_currency']}-#{values['sell_currency']}-#{values['fee_currency']}"
 end
 
-def trading_lin
+def trading_line(trade)
+  txn_type 
