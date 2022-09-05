@@ -48,4 +48,5 @@ def order_fingerprint(ct_trade)
 end
 
 def trading_line(trade)
-  txn_type    = convert_type(
+  txn_type    = convert_type(trade.txn_type)
+  buy_c
