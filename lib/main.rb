@@ -50,4 +50,5 @@ end
 def trading_line(trade)
   txn_type    = convert_type(trade.txn_type)
   buy_coin    = trade.buy_currency
-  sell_coin  
+  sell_coin   = trade.sell_currency
+  fee_coi
