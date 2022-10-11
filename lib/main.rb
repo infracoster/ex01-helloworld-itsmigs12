@@ -56,3 +56,4 @@ def trading_line(trade)
   sell_coin   = COIN_MAPPING[sell_coin] || sell_coin
   fee_coin    = COIN_MAPPING[fee_coin]  || fee_coin
   buy_amount  = trade.buy_amount
+  sell_amount = trade.s
