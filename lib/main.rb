@@ -59,4 +59,5 @@ def trading_line(trade)
   sell_amount = trade.sell_amount
 
   line = []
-  line << formatted
+  line << formatted_time(trade.time)
+  
