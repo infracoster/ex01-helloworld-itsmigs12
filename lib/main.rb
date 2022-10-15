@@ -62,4 +62,5 @@ def trading_line(trade)
   line << formatted_time(trade.time)
   line << txn_type
   line << ''
-  line << buy_c
+  line << buy_coin
+  line << eight_deci
