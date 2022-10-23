@@ -66,4 +66,4 @@ def trading_line(trade)
   line << eight_decimals(buy_amount)
   line << eight_decimals(sell_amount)
   line << sell_coin
- 
+  line << eight_decimals(t
