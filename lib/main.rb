@@ -67,4 +67,4 @@ def trading_line(trade)
   line << eight_decimals(sell_amount)
   line << sell_coin
   line << eight_decimals(trade.fee_amount)
-  line 
+  line << fee_co
