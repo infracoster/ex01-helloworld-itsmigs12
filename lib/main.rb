@@ -71,4 +71,5 @@ def trading_line(trade)
   line
 end
 
-def spe
+def spending_line(trade)
+  txn_t
