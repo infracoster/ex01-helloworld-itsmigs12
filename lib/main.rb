@@ -72,4 +72,4 @@ def trading_line(trade)
 end
 
 def spending_line(trade)
-  txn_t
+  txn_type    = convert_t
