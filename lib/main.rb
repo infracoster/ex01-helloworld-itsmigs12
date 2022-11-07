@@ -73,4 +73,5 @@ end
 
 def spending_line(trade)
   txn_type    = convert_type(trade.txn_type)
-  sell_coin   = tr
+  sell_coin   = trade.sell_currency
+  sell_coin   
