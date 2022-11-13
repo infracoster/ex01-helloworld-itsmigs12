@@ -74,4 +74,4 @@ end
 def spending_line(trade)
   txn_type    = convert_type(trade.txn_type)
   sell_coin   = trade.sell_currency
-  sell_coin   = COIN_MAPPING[s
+  sell_coin   = COIN_MAPPING[sell_coin] || sel
