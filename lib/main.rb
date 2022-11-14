@@ -77,3 +77,5 @@ def spending_line(trade)
   sell_coin   = COIN_MAPPING[sell_coin] || sell_coin
   sell_amount = trade.sell_amount
 
+  line = []
+  line << format
