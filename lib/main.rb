@@ -79,4 +79,5 @@ def spending_line(trade)
 
   line = []
   line << formatted_time(trade.time)
-  line << txn
+  line << txn_type
+  line << '
