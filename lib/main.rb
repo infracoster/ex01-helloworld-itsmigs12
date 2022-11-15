@@ -78,4 +78,4 @@ def spending_line(trade)
   sell_amount = trade.sell_amount
 
   line = []
-  line << format
+  line << formatted_time(tra
