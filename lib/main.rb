@@ -84,4 +84,6 @@ def spending_line(trade)
   line << sell_coin
   line << eight_decimals(sell_amount)
   line
-en
+end
+
+def income_lin
