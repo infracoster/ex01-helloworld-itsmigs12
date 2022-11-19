@@ -82,4 +82,6 @@ def spending_line(trade)
   line << txn_type
   line << ''
   line << sell_coin
-  line << eight_decimals(s
+  line << eight_decimals(sell_amount)
+  line
+en
