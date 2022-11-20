@@ -87,4 +87,4 @@ def spending_line(trade)
 end
 
 def income_line(trade)
-  txn_type   = co
+  txn_type   = convert_type(trade.txn
