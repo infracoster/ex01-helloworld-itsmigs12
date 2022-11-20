@@ -86,4 +86,5 @@ def spending_line(trade)
   line
 end
 
-def income_lin
+def income_line(trade)
+  txn_type   = co
