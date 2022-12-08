@@ -89,4 +89,5 @@ end
 def income_line(trade)
   txn_type   = convert_type(trade.txn_type)
   buy_coin   = trade.buy_currency
-  buy_coin   = COIN_MAPPING[buy_coin] |
+  buy_coin   = COIN_MAPPING[buy_coin] || buy_coin
+  buy_am
