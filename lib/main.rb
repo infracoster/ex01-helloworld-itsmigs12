@@ -93,4 +93,4 @@ def income_line(trade)
   buy_amount = trade.buy_amount
 
   line = []
-  li
+  line << formatted_tim
