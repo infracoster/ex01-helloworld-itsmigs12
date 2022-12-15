@@ -99,4 +99,5 @@ def income_line(trade)
   line << buy_coin
   line << eight_decimals(buy_amount)
 
-  if tx
+  if txn_type == 'GIFTIN'
+    line << '
