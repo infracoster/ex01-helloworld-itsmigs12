@@ -96,4 +96,4 @@ def income_line(trade)
   line << formatted_time(trade.time)
   line << txn_type
   line << ''
-  l
+  line << buy_coin
