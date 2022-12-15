@@ -97,4 +97,6 @@ def income_line(trade)
   line << txn_type
   line << ''
   line << buy_coin
-  line << eight_decimals(bu
+  line << eight_decimals(buy_amount)
+
+  if tx
