@@ -100,4 +100,6 @@ def income_line(trade)
   line << eight_decimals(buy_amount)
 
   if txn_type == 'GIFTIN'
-    line << '
+    line << '0.01'
+    line << 'USD'
+ 
