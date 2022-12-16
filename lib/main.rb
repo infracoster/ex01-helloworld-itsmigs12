@@ -103,4 +103,7 @@ def income_line(trade)
     line << '0.01'
     line << 'USD'
   else
-    2.times { line
+    2.times { line << '' }
+  end
+
+ 
