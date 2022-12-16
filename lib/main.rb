@@ -102,4 +102,5 @@ def income_line(trade)
   if txn_type == 'GIFTIN'
     line << '0.01'
     line << 'USD'
- 
+  else
+    2.times { line
