@@ -110,4 +110,5 @@ def income_line(trade)
 end
 
 
-def write_trade_lines_for_order_
+def write_trade_lines_for_order_hash(order_hash)
+  rel =
