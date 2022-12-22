@@ -110,4 +110,4 @@ def income_line(trade)
 end
 
 
-def write_t
+def write_trade_lines_for_order_
