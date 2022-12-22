@@ -106,4 +106,8 @@ def income_line(trade)
     2.times { line << '' }
   end
 
- 
+  line
+end
+
+
+def write_t
