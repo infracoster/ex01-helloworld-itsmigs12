@@ -111,4 +111,4 @@ end
 
 
 def write_trade_lines_for_order_hash(order_hash)
-  rel = Trade.where(orde
+  rel = Trade.where(order_hash: order_hash
