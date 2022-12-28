@@ -113,4 +113,5 @@ end
 def write_trade_lines_for_order_hash(order_hash)
   rel = Trade.where(order_hash: order_hash)
 
-  if $config.combi
+  if $config.combine_trades?
+    grou
