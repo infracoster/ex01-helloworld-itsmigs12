@@ -115,4 +115,6 @@ def write_trade_lines_for_order_hash(order_hash)
 
   if $config.combine_trades?
     grouped_rel = rel.group(:order_hash)
-    template_row = rel.first.du
+    template_row = rel.first.dup
+
+    %i(buy_amount se
