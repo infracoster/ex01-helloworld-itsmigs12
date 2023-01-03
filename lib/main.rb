@@ -117,4 +117,5 @@ def write_trade_lines_for_order_hash(order_hash)
     grouped_rel = rel.group(:order_hash)
     template_row = rel.first.dup
 
-    %i(buy_amount sell_amount fee_amount).each do |co
+    %i(buy_amount sell_amount fee_amount).each do |col|
+      template_row[col.t
