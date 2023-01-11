@@ -118,4 +118,6 @@ def write_trade_lines_for_order_hash(order_hash)
     template_row = rel.first.dup
 
     %i(buy_amount sell_amount fee_amount).each do |col|
-      template_row[col.to_s] = grouped_rel.sum
+      template_row[col.to_s] = grouped_rel.sum(col)[order_hash]
+    end
+ 
