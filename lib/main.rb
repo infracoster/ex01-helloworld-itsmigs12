@@ -122,4 +122,6 @@ def write_trade_lines_for_order_hash(order_hash)
     end
     @combined_lines_saved += rel.count - 1
     rows = [template_row]
-  el
+  else
+    rows = rel
+  en
