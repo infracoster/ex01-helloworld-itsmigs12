@@ -127,4 +127,5 @@ def write_trade_lines_for_order_hash(order_hash)
   end
 
   rows.each do |r|
-    puts trading_line
+    puts trading_line(r).join(",")
+    writ
