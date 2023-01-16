@@ -126,4 +126,5 @@ def write_trade_lines_for_order_hash(order_hash)
     rows = rel
   end
 
-  rows.each do 
+  rows.each do |r|
+    puts trading_line
