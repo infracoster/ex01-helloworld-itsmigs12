@@ -124,4 +124,6 @@ def write_trade_lines_for_order_hash(order_hash)
     rows = [template_row]
   else
     rows = rel
-  en
+  end
+
+  rows.each do 
