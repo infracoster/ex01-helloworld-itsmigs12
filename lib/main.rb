@@ -132,4 +132,5 @@ def write_trade_lines_for_order_hash(order_hash)
   end
 end
 
-de
+def run
+  @combined_line
