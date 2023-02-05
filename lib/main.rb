@@ -134,4 +134,6 @@ end
 
 def run
   @combined_lines_saved = 0
-  @current_order_tra
+  @current_order_trades = []
+
+  retrieve_
