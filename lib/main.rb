@@ -136,4 +136,6 @@ def run
   @combined_lines_saved = 0
   @current_order_trades = []
 
-  retrieve_
+  retrieve_trades_data
+
+  # Process 
