@@ -133,4 +133,5 @@ def write_trade_lines_for_order_hash(order_hash)
 end
 
 def run
-  @combined_line
+  @combined_lines_saved = 0
+  @current_order_tra
