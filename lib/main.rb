@@ -139,4 +139,4 @@ def run
   retrieve_trades_data
 
   # Process trades
-  order_hashes = Trade.where(txn_ty
+  order_hashes = Trade.where(txn_type: 'trade').pluck(:ord
