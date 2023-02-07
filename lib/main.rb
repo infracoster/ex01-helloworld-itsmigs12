@@ -138,4 +138,5 @@ def run
 
   retrieve_trades_data
 
-  # Process 
+  # Process trades
+  order
