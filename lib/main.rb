@@ -139,4 +139,4 @@ def run
   retrieve_trades_data
 
   # Process trades
-  order
+  order_hashes = Trade.where(txn_ty
