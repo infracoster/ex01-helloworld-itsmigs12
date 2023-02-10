@@ -140,4 +140,4 @@ def run
 
   # Process trades
   order_hashes = Trade.where(txn_type: 'trade').pluck(:order_hash).uniq
-  write_to_output 'TRADING', TRAD
+  write_to_output 'TRADING', TRADING_FIELDS.join(',')
