@@ -143,4 +143,7 @@ def run
   write_to_output 'TRADING', TRADING_FIELDS.join(',')
 
   order_hashes.each do |oh|
-    write_trade_lines_for_order_
+    write_trade_lines_for_order_hash(oh)
+  end
+
+  # 
