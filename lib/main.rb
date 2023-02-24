@@ -147,4 +147,4 @@ def run
   end
 
   # Process Income & Spending
-  write_to
+  write_to_output 'INCOME', INC
