@@ -150,4 +150,4 @@ def run
   write_to_output 'INCOME', INCOME_FIELDS.join(',')
   write_to_output 'SPENDING', SPENDING_FIELDS.join(',')
 
-  Trade.where.not(txn_
+  Trade.where.not(txn_type: 'Trade').each d
