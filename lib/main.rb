@@ -148,4 +148,4 @@ def run
 
   # Process Income & Spending
   write_to_output 'INCOME', INCOME_FIELDS.join(',')
-  write_
+  write_to_output 'SPENDING', SPENDI
