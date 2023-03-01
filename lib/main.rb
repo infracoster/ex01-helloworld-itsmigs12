@@ -151,4 +151,4 @@ def run
   write_to_output 'SPENDING', SPENDING_FIELDS.join(',')
 
   Trade.where.not(txn_type: 'Trade').each do |t|
-    next unless txn_type = con
+    next unless txn_type = convert_type(t.txn_type)
