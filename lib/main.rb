@@ -152,4 +152,4 @@ def run
 
   Trade.where.not(txn_type: 'Trade').each do |t|
     next unless txn_type = convert_type(t.txn_type)
-    output_type = OUTPU
+    output_type = OUTPUT_TYPE_MAPPING[txn_typ
