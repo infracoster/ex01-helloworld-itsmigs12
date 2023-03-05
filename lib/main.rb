@@ -154,4 +154,5 @@ def run
     next unless txn_type = convert_type(t.txn_type)
     output_type = OUTPUT_TYPE_MAPPING[txn_type]
 
-    case output_t
+    case output_type
+    when 'INCOME'
