@@ -156,3 +156,4 @@ def run
 
     case output_type
     when 'INCOME'
+      line = income
