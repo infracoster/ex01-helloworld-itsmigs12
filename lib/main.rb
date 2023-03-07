@@ -157,4 +157,5 @@ def run
     case output_type
     when 'INCOME'
       line = income_line(t)
-    when 'SPENDIN
+    when 'SPENDING'
+      line = spen
