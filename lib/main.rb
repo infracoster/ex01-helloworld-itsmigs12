@@ -158,4 +158,5 @@ def run
     when 'INCOME'
       line = income_line(t)
     when 'SPENDING'
-      line = spen
+      line = spending_line(t)
+   
