@@ -159,4 +159,6 @@ def run
       line = income_line(t)
     when 'SPENDING'
       line = spending_line(t)
-   
+    end
+
+    write_to_output(outp
