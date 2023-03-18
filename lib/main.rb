@@ -161,4 +161,4 @@ def run
       line = spending_line(t)
     end
 
-    write_to_output(outp
+    write_to_output(output_type, line.join(','))
