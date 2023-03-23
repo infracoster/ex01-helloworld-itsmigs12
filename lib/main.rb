@@ -161,4 +161,5 @@ def run
       line = spending_line(t)
     end
 
-    write_to_output(output_type, line.join(','))
+    write_to_output(output_type, line.join(',')) if line.is_a?(Array)
+ 
