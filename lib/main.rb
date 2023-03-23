@@ -162,4 +162,7 @@ def run
     end
 
     write_to_output(output_type, line.join(',')) if line.is_a?(Array)
- 
+  end
+
+  close_outputs
+  pu
