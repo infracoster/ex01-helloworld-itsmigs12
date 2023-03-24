@@ -165,4 +165,4 @@ def run
   end
 
   close_outputs
-  puts "Done! Files wri
+  puts "Done! Files written to #{$confi
