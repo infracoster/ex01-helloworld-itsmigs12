@@ -165,4 +165,5 @@ def run
   end
 
   close_outputs
-  puts "Done! Files written to #{$confi
+  puts "Done! Files written to #{$config.output_path}."
+  put
