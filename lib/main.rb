@@ -166,4 +166,4 @@ def run
 
   close_outputs
   puts "Done! Files written to #{$config.output_path}."
-  put
+  puts "Reduced output by #
