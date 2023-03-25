@@ -166,4 +166,4 @@ def run
 
   close_outputs
   puts "Done! Files written to #{$config.output_path}."
-  puts "Reduced output by #{@combined_lines_saved} li
+  puts "Reduced output by #{@combined_lines_saved} lines by combining trades.
