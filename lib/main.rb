@@ -166,4 +166,7 @@ def run
 
   close_outputs
   puts "Done! Files written to #{$config.output_path}."
-  puts "Reduced output by #{@combined_lines_saved} lines by combining trades." if $config.combine_tr
+  puts "Reduced output by #{@combined_lines_saved} lines by combining trades." if $config.combine_trades?
+end
+
+$config = C
