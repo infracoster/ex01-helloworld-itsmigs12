@@ -169,4 +169,4 @@ def run
   puts "Reduced output by #{@combined_lines_saved} lines by combining trades." if $config.combine_trades?
 end
 
-$config = C
+$config = Config.new.load(ARGV[0])
