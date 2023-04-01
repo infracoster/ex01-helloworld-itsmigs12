@@ -170,3 +170,4 @@ def run
 end
 
 $config = Config.new.load(ARGV[0])
+run
