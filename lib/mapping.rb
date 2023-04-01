@@ -15,3 +15,21 @@ TYPE_MAPPING = {
   /stolen/i          => 'STOLEN',
   /lost/i            => 'LOST'
 }
+
+OUTPUT_TYPE_MAPPING = {
+  'BUY'         => 'TRADING',
+  'INCOME'      => 'INCOME',
+  'MINING'      => 'INCOME',
+  'GIFTIN'      => 'INCOME',
+  'SPEND'       => 'SPENDING',
+  'DONATION'    => 'SPENDING',
+  'GIFT'        => 'SPENDING',
+  'STOLEN'      => 'SPENDING',
+  'LOST'        => 'SPENDING'
+}
+
+OUTPUT_FILES_MAPPING = {
+  'TRADING'  => 'trading.csv',
+  'SPENDING' => 'spending.csv',
+  'INCOME'   => 'income.csv'
+}
